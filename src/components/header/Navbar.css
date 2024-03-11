@@ -1,0 +1,153 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f7f2; /* Set background color */
+    margin: 0px 32px;
+    padding: 0px 133px; /* Add padding */
+    border-radius: 8px; /* Add border radius for rounded corners */
+}
+.nav-logo{
+    margin-right: 20px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-inline-start: 0;
+
+}
+
+.navbar ul li {
+    list-style: none; /* Remove default list styles */
+}
+
+.navbar ul li a  {
+    display: block;
+    padding: 8px 10px; /* Add padding to create box-like appearance */
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+   
+    color: black;
+    border: none; /* Remove border */
+    border-radius: 6px; /* Add border radius */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+}
+
+
+.navbar ul li a:hover {
+    background-color: #ddd; /* Change background color on hover */
+    color: #555; /* Change text color on hover */
+}
+
+
+
+.login {
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+/* Style for login and registration links */
+.login-btn,
+.register-btn {
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px; /* Add margin between login and registration buttons */
+    height: 25px;
+    border: rgb(167, 152, 152) solid .1px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.login-btn:hover {
+    background-color: transparent; /* Change background color on hover */
+    color: #555; /* Change text color on hover */
+}
+
+.register-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px; /* Add margin between login and registration buttons */
+    height: 25px;
+    width: 80px;
+    border: black solid 1px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.register-btn:hover {
+    background-color: #333; /* Change background color on hover */
+}
+
+.ai-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #8a60f6;
+    border:none;
+    font-size:larger;
+    text-decoration: solid;
+    color: #fff;
+    font-weight:bolder;
+    
+}
+/* Dropdown styles */
+
+.dropdown-content {
+    display: flex; 
+    flex-direction: row;/* Initially hide the dropdown content */
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul li .dropdown-content {
+    display: flex;
+    flex-direction: row;
+    /* Add gap between dropdown items */
+}
+.dropdown-menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.dropdown-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-content li {
+    padding: 5px 0;
+}
+
+.dropdown-content li a {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-content li a:hover {
+    color: #555;
+}

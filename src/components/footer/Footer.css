@@ -1,0 +1,49 @@
+/* Footer.css */
+
+.footer-container {
+    display: flex;
+    width: 97.2%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+}
+
+.logo {
+    padding-left: 90px;
+  height: auto; /* Adjust the size of the logo as needed */
+}
+
+.links-container {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+.links-container > div {
+    
+    margin-bottom: 150px;
+}
+
+.links-container ul {
+    list-style: none;
+}
+
+.links-container ul li {
+    margin-bottom: 10px;
+    padding: 10px 0px 15px 0;
+}
+
+.links-container a {
+    color: white; /* Set link color to white */
+    text-decoration: none; /* Remove default underline */
+}
+
+.links-container a:hover {
+    color: #ccc; /* Change link color on hover */
+}
+
+.bottom-text {
+    text-align: center;
+}
